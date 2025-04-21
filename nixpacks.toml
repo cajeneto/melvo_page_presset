@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ['cp -r html/* .']
+
+[start]
+cmd = 'npx serve .'
