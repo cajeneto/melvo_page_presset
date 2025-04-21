@@ -1,5 +1,9 @@
+[phases.setup]
+nixPkgs = ['nodejs']
+
 [phases.build]
-cmds = ['cp -r html/* .']
+# Não precisamos copiar nada, já que os arquivos estão na raiz
+cmds = []
 
 [start]
-cmd = 'npx serve .'
+cmd = 'npx serve -s .'
