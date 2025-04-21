@@ -2,8 +2,13 @@
 nixPkgs = ['nodejs']
 
 [phases.build]
-# Não precisamos copiar nada, já que os arquivos estão na raiz
-cmds = []
+cmds = [
+  'cp -r html/* .',           
+  'cp -r css .',              
+  'cp -r javascript .',       
+  'cp melvo.png .',           
+  'cp melvo2.png .'           
+]
 
 [start]
 cmd = 'npx serve -s .'
