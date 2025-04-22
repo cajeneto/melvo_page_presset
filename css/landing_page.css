@@ -375,4 +375,122 @@
     border-radius: 6px;
     cursor: pointer;
   }
+
+
+
+
+
+
+
+/* ------------------- RESPONSIVIDADE ------------------- */
+
+@media (max-width: 1024px) {
+    .about-container,
+    .skills-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .about-content,
+    .skills-left,
+    .skills-right {
+      max-width: 100%;
+    }
+  
+    .about-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .experience-timeline {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 42px;
+    }
+  
+    .about-section,
+    .skills-section,
+    .experience-section,
+    .inspiration-section {
+      padding: 40px 20px;
+    }
+  
+    .about-container,
+    .skills-section {
+      gap: 30px;
+    }
+  
+    .skills-left h2,
+    .experience-section h2,
+    .inspiration-section h2 {
+      font-size: 20px;
+    }
+  
+    .skills-left h2 span,
+    .experience-section h2 span,
+    .inspiration-section h2 span {
+      font-size: 24px;
+    }
+  
+    .exp-box {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .inspiration-gallery {
+      gap: 20px;
+    }
+  
+    .inspiration-card {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .breadcrumb {
+      font-size: 12px;
+    }
+  
+    .btn-cv {
+      padding: 8px 14px;
+      font-size: 13px;
+    }
+  
+    .filter {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+  
+    .overlay h3 {
+      font-size: 14px;
+    }
+  
+    .overlay p {
+      font-size: 12px;
+    }
+  
+    .nav-btn {
+      padding: 8px 12px;
+      font-size: 16px;
+    }
+  
+    .skill-bar p {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .stat span {
+      font-size: 22px;
+    }
+  
+    .stat p {
+      font-size: 12px;
+    }
+  }
   
