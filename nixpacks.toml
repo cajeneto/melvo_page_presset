@@ -2,9 +2,7 @@
 nixPkgs = ['nodejs']
 
 [phases.build]
-cmds = [
-  'cp -r html/* .'  # Copia apenas o conteúdo de html/ (incluindo index.html) para a raiz
-]
+cmds = []
 
 [start]
 cmd = 'npx serve -s .'
