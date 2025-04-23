@@ -674,7 +674,7 @@
 
 .video-container {
   position: relative;
-  padding-bottom: 30.25%;
+  padding-bottom: 50.25%;
   height: 0;
   overflow: hidden;
   border-radius: 12px;
@@ -811,4 +811,41 @@
       font-size: 12px;
     }
   }
+
+  /* VIDEO RESPONSIVO */
+@media (max-width: 768px) {
+  .video-section {
+    padding: 60px 20px;
+  }
+
+  .video-section h2 {
+    font-size: 20px;
+  }
+
+  .video-section h2 span {
+    font-size: 24px;
+  }
+
+  .video-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-section {
+    padding: 40px 16px;
+  }
+
+  .video-section h2 {
+    font-size: 18px;
+  }
+
+  .video-section h2 span {
+    font-size: 20px;
+  }
+
+  .video-subtitle {
+    font-size: 13px;
+  }
+}
   
